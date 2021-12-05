@@ -4,11 +4,22 @@ div{
     display: block;
    
 }
+#mainHeading {
+    color: red;
+}
 img{
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
+#beginning {
+    text-align: center;
+    color: white;
+    text-shadow: 3px;
+    font-style: italic;
+    font-size: 30;
+}
+
 /* div:hover{
     transform:scale(1.2)rotate(5deg);
     
@@ -51,19 +62,16 @@ ul{
 .sub-title:hover{
 transform: scale(1.2);  
 }
-
-{
-    margin: 0;
-    padding: 0;
-   }
-   
+  
    html{
        width: 100vw;
        height: 100vh;
    }
    
-   /* CSS which you need for blurred box */
+   /* CSS for the blurred box */
    body{
+    margin: 8px;
+    display: block;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -76,6 +84,14 @@ transform: scale(1.2);
      font-weight: 400;
     -webkit-font-smoothing: antialiased; 
    }
+
+   #testP {
+       color: green;
+   }
+   .funParagraph {
+       color: green;
+   }
+   
 
  /* header::before {
    content: '';
@@ -92,7 +108,7 @@ transform: scale(1.2);
      color:whitesmoke;
  } */
  
- .copyright {
-     color: white
-    font-family: Arial;
-}
+.copyright {
+     color: white;
+     font-family: Courier;
+    }
